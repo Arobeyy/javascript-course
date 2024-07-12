@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <p class="js-print-calculation"></p>
+
+    <p>
+      <button onclick="updateFunction('1')">1</button>
+      <button onclick="updateFunction('2')">2</button>
+      <button onclick="updateFunction('3')">3</button>
+      <button onclick="updateFunction('+')"> + </button>
+    </p>
+
+    <p>
+      <button onclick="updateFunction('4')">4</button>
+      <button onclick="updateFunction('5')">5</button>
+      <button onclick="updateFunction('6')">6</button>
+      <button onclick="updateFunction('-')"> - </button>
+    </p>
+
+    <p>
+      <button onclick="updateFunction('7')">7</button>
+      <button onclick="updateFunction('8')">8</button>
+      <button onclick="updateFunction('9')">9</button>
+      <button onclick="updateFunction('*')"> * </button>
+    </p>
+
+    <p>
+      <button onclick="updateFunction('0')">0</button>
+      <button onclick="updateFunction('.')">.</button>
+      <button onclick="calculateResult()"> = </button>
+      <button onclick="updateFunction('/')"> / </button>
+    </p>
+
+    <p>
+      <button onclick="clearCalculation()">clear</button>
+    </p>
+
+    <script src="scripts/09-showCalculationOnscreen.js"></script>
+  </body>
+</html>

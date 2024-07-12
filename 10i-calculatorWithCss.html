@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/10i-calculatorWithCss.css">
+  </head>
+  <body>
+    <div class="grid-calculation">
+      <p class="js-print-calculation calculation"></p>
+    </div>
+    
+    <div class="grid-buttons">
+      <p>
+        <button class="calculator-button gray-button" onclick="updateFunction('1')">1</button>
+        <button class="calculator-button gray-button"  onclick="updateFunction('2')">2</button>
+        <button class="calculator-button gray-button" onclick="updateFunction('3')">3</button>
+        <button class="calculator-button orange-button" onclick="updateFunction(' + ')"> + </button>
+      </p>
+
+      <p>
+        <button class="calculator-button gray-button" onclick="updateFunction('4')">4</button>
+        <button class="calculator-button gray-button"  onclick="updateFunction('5')">5</button>
+        <button class="calculator-button gray-button"  onclick="updateFunction('6')">6</button>
+        <button class="calculator-button orange-button" onclick="updateFunction(' - ')"> - </button>
+      </p>
+
+      <p>
+        <button class="calculator-button gray-button"  onclick="updateFunction('7')">7</button>
+        <button class="calculator-button gray-button"  onclick="updateFunction('8')">8</button>
+        <button class="calculator-button gray-button" onclick="updateFunction('9')">9</button>
+        <button class="calculator-button orange-button" onclick="updateFunction(' * ')"> * </button>
+      </p>
+
+      <p>
+        <button class="calculator-button gray-button" onclick="updateFunction('0')">0</button>
+        <button class="calculator-button gray-button" onclick="updateFunction('.')">.</button>
+        <button class="calculator-button gray-button" onclick="calculateResult()"> = </button>
+        <button class="calculator-button orange-button" onclick="updateFunction(' / ')">/</button>
+      </p>
+
+      <p>
+        <button class="calculator-button gray-button clear-button" onclick="clearCalculation()">clear</button>
+      </p>
+
+    </div>
+    
+
+    <script src="scripts/10i-calculatorWithCss.js"></script>
+  </body>
+</html>

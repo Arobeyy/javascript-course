@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>interactive text-box</title>
+    <script src="scripts/09-interactiveTextbox.js"></script>
+  </head>
+  <body>
+    <input class="js-input-username" type="text" placeholder="Enter your name" onkeydown="
+      handelUsernameKeydown(event);
+    ">
+    <button class="js-submit-button" onclick="
+      printUsername();
+    ">Submit</button>
+    <p class="js-print-username" ></p>
+  </body>
+</html>

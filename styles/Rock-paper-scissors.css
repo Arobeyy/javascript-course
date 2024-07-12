@@ -1,0 +1,83 @@
+*
+{
+  margin: 0;
+}
+
+body
+{
+  background-color: black;
+}
+
+.game-name
+{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+.boldline-after-heading
+{
+  background-color: rgb(250, 185, 7);
+  border: 0;
+  height: 1px;
+}
+
+.rock-paper-scissor-button
+{
+  text-align: center;
+}
+
+.player-move-button 
+{
+  display:inline-block;
+  border-radius: 50%;
+  margin: 40px 20px 20px 30px;
+  overflow: hidden;
+}
+
+
+.button-image
+{
+  width: 100px;
+  height: 100px;
+  /*
+  border-radius: 50%;
+  */
+  object-fit: cover;
+}
+
+.rock-button, .paper-button, .scissor-button
+{
+  border: none;
+  border-color: transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rock-button:hover, .paper-button:hover, .scissor-button:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.reset-button
+{
+  color: white;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px 35px;
+  background-color: black;
+  margin-left: 210px;
+  margin-top: 40px;
+  border-color: rgb(250, 185, 7);
+  border-width: 1px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.reset-button:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>button</title>
+    <link rel="stylesheet" href="styles/10d-button.css">
+  </head>
+
+  <body>
+    <button class="js-gaming-button gaming-button" onclick="
+      toggle();
+    ">Gaming</button>
+
+    <script>
+      function toggle() {
+        const buttonElement = document.querySelector('.js-gaming-button');
+
+        if(buttonElement.classList.contains('is-toggled')) {
+          buttonElement.classList.remove('is-toggled');  
+        } else {
+          buttonElement.classList.add('is-toggled');
+        }
+        
+      }
+    </script>
+  </body>
+</html>

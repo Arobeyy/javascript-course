@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>selecting elements using query selector</title>
+  </head>
+  <body>
+    <button>9a</button>
+    <button class="js-2nd-button">9b</button>
+
+
+    <script>
+      console.log(document.querySelector('button'));
+      console.log(document.querySelector('button').innerHTML);
+      let changed = document.querySelector('.js-2nd-button');
+
+      changed.innerText = '9b done!';
+    </script>
+  </body>
+</html>
